@@ -1,0 +1,12 @@
+.AppBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  & > span {
+    color: white;
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+}

@@ -1,0 +1,38 @@
+.HomePage {
+  &__Card {
+    background: linear-gradient(180deg, #c59bfe 0%, #a35efe 100%);
+    width: 100%;
+    color: white;
+
+    &__Container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &__Btn {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  &__Options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    & > div {
+      width: 100px;
+      height: 70px;
+      border-radius: 5px;
+      background-color: #a35efe;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+}
+
+.BorderSelect {
+  border: 3px solid #86f4b7;
+}

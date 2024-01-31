@@ -1,0 +1,16 @@
+.Quiz {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  &__options {
+    background-color: #ff7b20;
+    width: calc(50% - 10px);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+
+.BorderSelect {
+  border: 3px solid #86f4b7;
+}
